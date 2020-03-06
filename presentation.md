@@ -14,13 +14,11 @@ By Kris Geusenbroek and Paulien van Alst
 layout: false
 
 .left-column[ # Who are we ?]
- 
+.remark-slide-content.presentation[![](./images/barcoding_ov.png)] 
 .right-column[
-![Right-aligned image](https://nl.gravatar.com/userimage/141255164/083b985c7d2b52477a770a9c2816c71e.jpg?size=200)
 ### Paulien van Alst - @PaulienVanAlst
-.job-description[Software engineer @OpenValue]
-
 .job-description[Podcaster at BarCoding]
+.job-description[Software engineer @OpenValue]
 ]
 --
 .right-column[### Kris Geusebroek]
@@ -33,7 +31,9 @@ layout: false
 --
 .right-column[
 - FIOD (Fiscal Investigation Services)
+]
 --
+.right-column[
 - Started two years ago ]
 --
 .right-column[
@@ -47,15 +47,36 @@ layout: false
 .right-column[
 - User interface design by UX designer
 ]
+--
+.remark-slide-content[![](./images/agile-no-docs.jpg)]
 ---
 
+name: inverse
+layout: true
+class: center, middle, inverse
+---
 
-
-.left-column[# Current project
+.left-column.inverse[# Current project
 ### Introduction
 ### Challenge
 ]
 --
+.vertical-middle[
+## How to get back on track with documentation?
+
+# and
+
+## Make sure we will keep it up to date
+]
+---
+layout: false
+
+
+.left-column[# Solve the challenge
+### Who?
+]
+--
+
 .right-column[
 Who is reading and writing documentation?
 ] 
@@ -64,19 +85,7 @@ Who is reading and writing documentation?
 - architect
 ]  
 
-
-
----
-.left-column[# Current project
-### Introduction
-### Challenge
-]
-.right-column[
-Who is reading and writing documentation?
-] 
-.right-column[
-- architect
-] 
+--
 .right-column[
 - developers
 ]
@@ -91,16 +100,16 @@ Who is reading and writing documentation?
 ]
 
 ---
-.left-column[# Current project
-   ### Introduction
-   ### Challenge
+.left-column[# Solve the challenge
+   ### Who?
+   ### What?
    ]
 --
 .right-column[
-Who is reading and writing documentation?
+What do they prefer?
 ]   
 .right-column[
-- architext: .red.bold[ keep track of their drawings ]
+- architect: .red.bold[ keep track of their drawings ]
 ]
 --
 .right-column[

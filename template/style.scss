@@ -5,6 +5,7 @@
 $inverse-bg          : #272822;
 $inverse-color       : #777872;
 $inverse-title-color : #f3f3f3;
+$inverse-last-child  : #f3e1e1;
 
 $primary          : #000;
 $secondary        : #777;
@@ -34,6 +35,11 @@ h1, h2, h3 {
     font-family: $font-title;
     font-weight: 400;
     margin-bottom: 0;
+}
+
+.vertical-middle {
+    text-align: center;
+    padding: calc(15% - 2rem);
 }
 .remark-slide-content h1 { font-size: 3em; }
 .remark-slide-content h2 { font-size: 2em; }
@@ -128,6 +134,18 @@ code {
 .left-column h2:last-of-type, .left-column h3:last-child {
     color: $primary;
 }
+
+.inverse.left-column {
+    color: $secondary;
+    width: 20%;
+    height: 92%;
+    float: left;
+}
+.inverse.left-column h3:last-of-type {
+    color: $inverse-last-child;
+}
+
+
 .right-column {
     width: 75%;
     float: right;
@@ -162,6 +180,15 @@ code {
 .remark-slide-content.img-right-full > p:first-of-type {
     margin: 0px;
     padding: 0px;
+}
+
+.remark-slide-content.presentation > img {
+    position: absolute;
+    top: calc(10% + 2rem);
+    right: 10px;
+    height: 40%;
+    width: 15%;
+    object-position: left;
 }
 .remark-slide-content.img-right-full > p:first-of-type > img {
     position: absolute;
