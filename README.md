@@ -1,4 +1,10 @@
-To run the presentation: `python3 -m http.server`
+To run the presentation:
+ 
+Using https://github.com/sinedied/backslide:
+`npm install -g backslide`
+
+Serve the presentation usinng:
+`bs s`
 
 Go to [here](http://localhost:8000)
 
@@ -14,4 +20,7 @@ Go to [here](http://localhost:8000)
 		<meta property="og:site_name" content="Creating Beautiful Presentations with Story" />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@xaprb" />
+
+
+
 

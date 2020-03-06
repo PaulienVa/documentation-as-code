@@ -1,14 +1,37 @@
-/*
-   Theme colours
-*/
 
-$red:#fa0000;
+// Theme
+// ---------------------------------------------------------------------------
+
+$inverse-bg          : #272822;
+$inverse-color       : #777872;
+$inverse-title-color : #f3f3f3;
+
+$primary          : #000;
+$secondary        : #777;
+
+$slides-bg        : #fff;
+
+
+$red              : #fa0000;
+$light            : #FFF;
+$code-color       : rgb(249, 38, 114);
+$code-bg          : #e7e8e2;
+$code-highlight-bg: #373832;
+$overlay          : transparentize(#000, .5);
+$font-size        : 28px;
+$font-size-impact : 128px;
+$font             : 'Droid Serif', sans-serif;
+$font-title       : 'Yanone Kaffeesatz', sans-serif;
+$font-fixed       : 'Ubuntu Mono', Monaco, monospace;
+$margin           : 20px;
+$iframe-scale     : 1.5;
+
 
 body {
-    font-family: 'Droid Serif';
+    font-family: $font;
 }
 h1, h2, h3 {
-    font-family: 'Yanone Kaffeesatz';
+    font-family: $font-title;
     font-weight: 400;
     margin-bottom: 0;
 }
@@ -23,15 +46,15 @@ li p { line-height: 1.25em; }
 .red { color: $red; }
 .large { font-size: 2em; }
 a, a > code {
-    color: rgb(249, 38, 114);
+    color: $code-color;
     text-decoration: none;
 }
 code {
-    background: #e7e8e2;
+    background: $code-bg;
     border-radius: 5px;
 }
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-.remark-code-line-highlighted     { background-color: #373832; }
+.remark-code, .remark-inline-code { font-family: $font-fixed; }
+.remark-code-line-highlighted     { background-color: $code-highlight-bg; }
 .pull-left {
     float: left;
     width: 47%;
@@ -51,12 +74,12 @@ code {
     padding: 15px;
 }
 .inverse {
-    background: #272822;
-    color: #777872;
+    background: $inverse-bg;
+    color: $inverse-color;
     text-shadow: 0 0 20px #333;
 }
 .inverse h1, .inverse h2 {
-    color: #f3f3f3;
+    color: $inverse-title-color;
     line-height: 0.8em;
 }
 
@@ -78,12 +101,12 @@ code {
     padding: 1px 20px;
     height: 90px;
     width: 120px;
-    -moz-box-shadow: 0 0 10px #777;
-    -webkit-box-shadow: 0 0 10px #777;
-    box-shadow: 0 0 10px #777;
+    -moz-box-shadow: 0 0 10px $secondary;
+    -webkit-box-shadow: 0 0 10px $secondary;
+    box-shadow: 0 0 10px $secondary;
 }
 #slide-how .slides .first {
-    background: #fff;
+    background: $slides-bg;
     position: absolute;
     top: 20%;
     left: 20%;
@@ -91,19 +114,19 @@ code {
 }
 #slide-how .slides .second {
     position: relative;
-    background: #fff;
+    background: $slides-bg;
     z-index: 0;
 }
 
 /* Two-column layout */
 .left-column {
-    color: #777;
+    color: $secondary;
     width: 20%;
     height: 92%;
     float: left;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-    color: #000;
+    color: $primary;
 }
 .right-column {
     width: 75%;
@@ -164,4 +187,10 @@ code {
     width: 40%;
     object-fit: cover;
     object-position: right;
+}
+
+// Custom additions:
+
+.title-slide {
+    width: 60%
 }
