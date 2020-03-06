@@ -7,6 +7,9 @@ $inverse-color       : #777872;
 $inverse-title-color : #f3f3f3;
 $inverse-last-child  : #f3e1e1;
 
+$intervention-bg     : #DEB887;
+$intervention-color  : #800000;
+
 $primary          : #000;
 $secondary        : #777;
 
@@ -14,6 +17,7 @@ $slides-bg        : #fff;
 
 
 $red              : #fa0000;
+$darkgreen        : #006400;
 $light            : #FFF;
 $code-color       : rgb(249, 38, 114);
 $code-bg          : #e7e8e2;
@@ -89,6 +93,17 @@ code {
     line-height: 0.8em;
 }
 
+.intervention {
+    background: $intervention-bg;
+    color: $intervention-color;
+    text-shadow: 0 0 10px #8B4513;
+}
+.intervention h1, .intervention h2 {
+    color: $intervention-color;
+    line-height: 0.8em;
+}
+
+
 /* Slide-specific styling */
 #slide-inverse .footnote {
     bottom: 12px;
@@ -152,6 +167,13 @@ code {
     padding-top: 1em;
 }
 
+.right-column .pros {
+    color: $darkgreen;
+}
+
+.right-column .cons {
+    color: $red;
+}
 
 .remark-slide-content.img-right > p:first-of-type {
     height: 100%;
