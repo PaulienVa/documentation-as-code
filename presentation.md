@@ -62,11 +62,11 @@ layout: false
 ]
 
 .right-column[
-- people maintaining the docs left the project
+- People maintaining the docs left the project
 ]
 --
 .right-column[
-- people left the project
+- People left the project
 ]
 ---
 name: intervention
@@ -110,16 +110,16 @@ Who is reading and writing documentation?
 ] 
 --
 .right-column[
-- architect
+- Architect
 ]  
 
 --
 .right-column[
-- developers
+- Developers
 ]
 --
 .right-column[
-- (business) analysts
+- (Business) Analysts
 ]
 
 --
@@ -161,12 +161,12 @@ What do they prefer?
 .right-column[
 - Confluence: 
    .pros[
-- user friendly editor
-- lots of plugins
+- User friendly editor
+- Lots of plugins
     ]
    .cons[
-- bad search 
-- far, far away from the code base
+- Bad search 
+- Far, far away from the code base
  ]
 ]  
 --
@@ -179,9 +179,9 @@ What do they prefer?
  ]
  
 --
- .right-column[
-  - Partial feature documentation in Jira, partially in Confluence
-  ]
+.right-column[
+ - Partial feature documentation in Jira, partially in Confluence
+]
 --
 .right-column[
  - Architectural drawings: Draw.io
@@ -208,25 +208,25 @@ layout: false
    ]
 --
 .right-column[
-- known from the python world
+- Known from the python world
 ]
 --
 .right-column[
-- easy set-up
+- Easy set-up
 ]
 --
 .right-column[
-- everything in markdown!
+- Everything in markdown!
   - codebase compliant
   - git clients have nice editors
 ]
 --
 .right-column[
-- standard themes
+- Standard themes
 ]
 --
 .right-column[
-- lots of plugins (active community)
+- Lots of plugins (active community)
   - coding highlight
   - code snippets
   - very good search
@@ -252,11 +252,11 @@ layout: false
    ### Git submodules
    ]
 .right-column[
-- each repository has its own documentation
+- Each repository has its own documentation
 ]
 --
 .right-column[
-- one overall project
+- One overall project
 ]
 
 ---
@@ -271,7 +271,7 @@ layout: false
 - User friendly editor
 ]
 .right-column[
-- use of a pipeline for releasing
+- Use of a pipeline for releasing
 ]
 ---
 
