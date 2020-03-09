@@ -169,7 +169,10 @@ What do they prefer?
 - far, far away from the code base
  ]
 ]  
-
+--
+.right-column[
+ - README.md in the repositories
+]
 --
 .right-column[
  - Word documents for user documentation to generate PDF
@@ -279,9 +282,10 @@ layout: false
    ### Gitlab editor
    ### Docker container
    ]
-.right-column[
-- deployable!
+.vertical-middle.small-right-column[
+deployable!
 ]
+.remark-slide-content.image-center[![](./images/docker-logo.png)] 
 ---
 name: inverse
 layout: true
