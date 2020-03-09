@@ -184,7 +184,7 @@ What do they prefer?
 ]
 --
 .right-column[
- - Architectural drawings: Draw.io
+ - Architectural drawings: (outdated) picture on the wall
  ]
  
 --
