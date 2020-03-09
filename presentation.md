@@ -166,7 +166,7 @@ What do they prefer?
     ]
    .cons[
 - Bad search 
-- Far, far away from the code base
+- Far, far away from the codebase
  ]
 ]  
 --
@@ -318,6 +318,22 @@ class: center, middle, inverse
 ---
 # How does it look like? 
 ## Code example!
+---
+# And the UX flow ?
+---
+layout: false
+
+.left-column[# UX flow
+]
+
+.right-column[
+ - UX documentation for tech people
+ - UX documentation for users (a bit less than the above)
+ 
+ - Gitlab pipeline will result in both:
+        - HTML website (as the microservices/libraries)
+        - PDF document (for the users)
+]
 ---
 layout: false
 
