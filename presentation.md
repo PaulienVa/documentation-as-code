@@ -5,7 +5,7 @@ class: center, middle, inverse
 
 .title-slide[
 # Applying your coding practices to your documentation
-By Kris Geusenbroek and Paulien van Alst
+By Kris Geusebroek and Paulien van Alst
 ]
 .remark-slide-content.img-right-full.inverse[
 ![](./images/new-developer-docs.jpg)]
