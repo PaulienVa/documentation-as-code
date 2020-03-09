@@ -137,15 +137,15 @@ Who is reading and writing documentation?
 What do they prefer?
 ]   
 .right-column[
-- architect: .red.bold[ keep track of their drawings ]
+- Architect: .red.bold[ keep track of their drawings ]
 ]
 --
 .right-column[
-- developers: .red.bold[ stay in the codebase ]
+- Developers: .red.bold[ stay in the codebase ]
 ]
 --
 .right-column[
-- (business) analysts: .red.bold[ easy accessible and editable documentation ]
+- (Business) Analysts: .red.bold[ easy accessible and editable documentation ]
 ]
 --
 
@@ -258,6 +258,28 @@ layout: false
 .right-column[
 - One overall project
 ]
+--
+.remark-slide-content.presentation[
+![](./images/explanation-setup/overview-submodules.png)
+]
+
+---
+
+.left-column[# Solution
+   ### Mkdocs
+   ### Git
+   ### Git submodules
+   ]
+.right-column[
+- Each repository has its own documentation
+]
+.right-column[
+- One overall project
+]
+
+.remark-slide-content.presentation[
+![](./images/explanation-setup/overview-submodules2.png)
+]
 
 ---
 
@@ -272,6 +294,9 @@ layout: false
 ]
 .right-column[
 - Use of a pipeline for releasing
+]
+.remark-slide-content.gitlab-ui[
+![](./images/explanation-setup/gitlab-ui.png)
 ]
 ---
 

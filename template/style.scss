@@ -219,6 +219,16 @@ code {
     width: 15%;
     object-position: left;
 }
+
+.remark-slide-content.gitlab-ui > img {
+    position: absolute;
+    top: calc(10% + 1rem);
+    right: 10px;
+    height: 20%;
+    width: 45%;
+    object-position: left;
+}
+
 .remark-slide-content.img-right-full > p:first-of-type > img {
     position: absolute;
     top: 0px;
