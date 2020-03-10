@@ -13,6 +13,14 @@ By Kris Geusebroek and Paulien van Alst
 ---
 layout: false
 
+# Do you all know the "architecture picture on the wall?"
+
+.remark-slide-content.fifty[![](./images/software-architecture-on-wall.png)]
+
+.footnote[https://res.infoq.com/articles/agile-software-architecture-sketches-NoUML/en/resources/1big.png]
+
+---
+
 .left-column[ # Who are we ?]
 .remark-slide-content.presentation[![](./images/barcoding_ov.png)] 
 .right-column[
@@ -23,6 +31,7 @@ layout: false
 --
 .right-column[### Kris Geusebroek]
 .right-column[Data Engineer @GoDataDriven]
+.remark-slide-content.presentation2[![](./images/go-data-driven.png)] 
 
 ---
 .left-column[# Current project
@@ -68,6 +77,11 @@ layout: false
 .right-column[
 - People left the project
 ]
+--
+.right-column[
+ ![](./images/substitue.jpeg)
+]
+
 ---
 name: intervention
 layout: true
@@ -109,22 +123,56 @@ layout: false
 Who is reading and writing documentation?
 ] 
 --
+
 .right-column[
 - Architect
 ]  
 
---
+.right-column[
+ .remark-slide-content.fifty[![](./images/draw.io_drawing.jpg)]
+]
+
+---
+.left-column[# Solve the challenge
+### Who?
+]
+
+.right-column[
+Who is reading and writing documentation?
+] 
 .right-column[
 - Developers
 ]
---
 .right-column[
-- (Business) Analysts
+ .remark-slide-content.fifty[![](./images/markdown-intellij.png)]
+]
+---
+.left-column[# Solve the challenge
+### Who?
 ]
 
---
+.right-column[
+Who is reading and writing documentation?
+] 
+.right-column[
+- (Business) Analysts
+ .remark-slide-content.fifty[![](./images/word-screenshot.jpg)]
+]
+
+---
+.left-column[# Solve the challenge
+### Who?
+]
+
+.right-column[
+Who is reading and writing documentation?
+] 
 .right-column[
 - UX designers
+]
+
+.right-column[
+ .remark-slide-content.fifty[![](./images/sketch-logo.png)]
 ]
 
 ---
@@ -203,6 +251,36 @@ class: center, middle, inverse
 
 ---
 layout: false
+
+.left-column[# Requirements
+]
+
+.right-column[
+- Documentation next to the codebase
+]
+--
+
+.right-column[
+- Easily editable for non-technical users
+]
+--
+
+.right-column[
+- Version controlled
+]
+--
+
+.right-column[
+- Deployable
+]
+--
+.right-column[
+- HTML / PDF as an output
+]
+
+
+---
+layout: false
 .left-column[# Solution
    ### Mkdocs
    ]
@@ -230,6 +308,7 @@ layout: false
   - coding highlight
   - code snippets
   - very good search
+  - plugin for different outputs
   ]
 ---
 
@@ -295,9 +374,10 @@ layout: false
 .right-column[
 - Use of a pipeline for releasing
 ]
-.remark-slide-content.gitlab-ui[
-![](./images/explanation-setup/gitlab-ui.png)
-]
+
+
+.remark-slide-content.twenty[![](./images/explanation-setup/gitlab-ui.png)]
+
 ---
 
 .left-column[# Solution
@@ -319,10 +399,11 @@ class: center, middle, inverse
 # How does it look like? 
 ## Code example!
 ---
+layout: false
+class: center, middle
+
 # And the UX flow ?
 ---
-layout: false
-
 .left-column[# UX flow
 ]
 
